@@ -1,0 +1,50 @@
+.main-container {
+    // background-color: lightgrey;
+    .inner-container {
+        // width: 80%;
+        height: 100%;
+        margin: 2em 5em;
+
+        .main-heading {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .img-container {
+            overflow-x: scroll;
+            scroll-behavior: smooth;
+        }
+        .img-container::-webkit-scrollbar {
+            display: none;
+        }
+
+        .button-row {
+            display: flex;
+
+            .scrollableButtons {
+                display: flex;
+                width: 74%;
+                
+                .tag-list{
+                    scroll-behavior: smooth;
+                }
+
+                .tag-list::-webkit-scrollbar {
+                    overflow-y: hidden;
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+// .inner-container{
+//         background-color: lightcoral;
+//         border-radius: 10px;
+//         padding: 20px;
+//         margin: 10px;
+//         box-sizing: border-box;
+//         box-shadow: inset;
+//         box-decoration-break: clone;
+// }
+
